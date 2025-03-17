@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.header_logo{
+    height: 30px;
+    width: 30px;
+}
+
+main{
+    background-image:url("../img/background.webp");
+    background-repeat: no-repeat;
+    padding: 20px;
+    max-height: 900px;
+    object-fit: fill;
+}
