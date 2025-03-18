@@ -12,7 +12,10 @@
         <h2>Moscow Polytech</h2>
     </header>
     <main>
-        <h1>Hello world</h1>
+    
+        <?php
+            echo "Hello, World!"
+        ?>
         <h2>my name is Maksim</h2>
     </main>
     <footer>
