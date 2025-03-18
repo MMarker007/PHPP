@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP_lab2</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Бюдаев Юрий 241-321 2laba</title>
 </head>
 <body>
-    <header>
-        <img class='header_logo' src='./img/mospolytech_logo.png' alt='Логотип'>
-        <h2>Feedback Form</h2>
-        <h2>Гришин Максим</h2>
+    <header style="display: flex; justify-content: left; gap: 5%;">
+        <img src="./Logo_Polytech_rus_main.jpg" alt="Логотип" style="width: 30%; height: 20%;">
+        <h1>Домашняя работа: Feedback form</h1>
     </header>
     <main>
-        <?php 
+        <?php
             $result = get_headers("https://httpbin.org/post");
-            echo "<p>";
+            echo "<textarea>";
                 print_r($result);
-            echo "</p>";
+            echo "</textarea>";
         ?>
     </main>
     <footer>
-        <h4> 1 страница: Сверстать форму обратной связи. Отправку формы осуществить на URL: https://httpbin.org/post. Добавить кнопку для перехода на 2 страницу.</h4>
-        <h4> 2 страница: вывести на страницу результат работы функции get_headers. Загрузить код в удаленный репозиторий. Залить на хостинг.</h4>
+        <p>Бюдаев Юрий 241-321 2laba</p>
+        <p><?php echo date("l"); ?></p>
     </footer>
 </body>
 </html>

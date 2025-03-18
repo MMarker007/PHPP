@@ -23,7 +23,7 @@
                 </p>
                 <p>
                     <label>e-mail<br>
-                    <input type="email" name="name" id="name" required>
+                    <input type="email" name="email" id="name" required>
                     </label>
                 </p>
                 <fieldset class='fieldset_first'>
@@ -39,21 +39,21 @@
                     </label>
                 </fieldset>
                 <label>Текст обращения<br>
-                    <input type="text" name="name" id="name" required height="50px" width="500px">
+                    <input type="text" name="text" id="name" required height="50px" width="500px">
                 </label>
-                <fieldset   class='fieldset_second'>
+                <fieldset class='fieldset_second'>
                     <legend>Как с вами связаться:</legend>
                     <label>email
-                        <input type='checkbox' name='answer'>
+                        <input type='checkbox' name='answer' id="email" value="email">
                     </label>
                     <label>sms
-                        <input type='checkbox' name='answer'>
+                        <input type='checkbox' name='answer' id="sms" value="sms">
                     </label>
                 </fieldset>
-                <button type='submit'>Отправить
-                </button>
-                <br><a href="result.php">2 страница</a>
-                </button>
+                <div>
+                    <button type='submit'>Отправить</button>
+                    <br><a href="result.php">2 страница</a>
+                </div>
             </fieldset>
         </form>
     </main>
