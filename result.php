@@ -15,9 +15,9 @@
     <main>
         <?php 
             $result = get_headers("https://httpbin.org/post");
-            echo "<p>";
+            echo "<textarea>";
                 print_r($result);
-            echo "</p>";
+            echo "</textarea>";
         ?>
     </main>
     <footer>
