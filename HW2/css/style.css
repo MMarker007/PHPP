@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.header_logo{
+    height: 30px;
+    width: 30px;
+
+}
+
+main{
+    background-image:url("../img/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    height: 900px;
+    object-fit: fill;
+    margin-bottom: 20px;
+}
+
+.fieldset_first{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.fieldset_second{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.fieldset_main{
+    display: flex;
+    flex-direction: column;
+    background-image:url("../img/background_form.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
