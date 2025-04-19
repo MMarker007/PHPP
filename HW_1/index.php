@@ -12,7 +12,6 @@
         <h2>Moscow Polytech</h2>
     </header>
     <main>
-    
         <?php
             echo "Hello, World!"
         ?>
