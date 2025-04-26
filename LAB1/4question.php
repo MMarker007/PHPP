@@ -20,7 +20,7 @@
     $gde='где';
     $kasdy = "каждый";
 
-    echo $kasdy . " " .  $hunter . " " .  $wants_to . " " .  $know . " " . $gde . " " . $sits . " " . $fizan
+    echo "$kasdy $hunter $wants_to $know $gde $sits $fizan"
 
     ?>
 
