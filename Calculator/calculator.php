@@ -2,7 +2,6 @@
 if (isset($_GET['expression'])) {
     $expression = $_GET['expression'];
 
-    // Убираем пробелы и заменяем -- на +
     $expression = str_replace(" ", "", $expression);
     $expression = str_replace("--", "+", $expression);
 
