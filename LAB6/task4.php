@@ -41,4 +41,4 @@ if (isset($_GET['clear'])) {
     header("Location: ".strtok($_SERVER['REQUEST_URI'], '?'));
     exit;
 }
-?>
+?>  
